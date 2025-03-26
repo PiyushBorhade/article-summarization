@@ -8,6 +8,6 @@ numpy       # If numerical computations are involved
 pandas      # For data manipulation, if needed
 matplotlib   # Visualization support
 python-dotenv
-streamlit==1.24.0
+streamlit==1.38.0
 PyMuPDF
-Pillow==9.5.0
+Pillow==10.4.0
