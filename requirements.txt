@@ -1,8 +1,7 @@
 streamlit==1.24.0
 PyMuPDF
-
 groq    # Groq client (if available on PyPI, otherwise you might need to install directly from the source)
-Pillow==9.5.0
+Pillow==10.4.0
 llama-index   # Large Language Model indexing
 langchain   # Agent-based framework for LLMs
 openai         # If OpenAI integration is used
