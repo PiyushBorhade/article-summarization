@@ -4,7 +4,8 @@ from groq import Groq
 from PIL import Image
 
 # Initialize the Groq client
-client = Groq(api_key='Groq_API_KEY')
+#st.secrets["OPENAI_API_KEY"]
+client = st.secrets(api_key='Groq_API_KEY')
 
 def extract_text_from_pdf(file):
     doc = fitz.open(stream=file.read(), filetype="pdf")  # Open PDF from file object
