@@ -1,15 +1,14 @@
 streamlit==1.24.0
 PyMuPDF
 
-groq==0.1.0  # Groq client (if available on PyPI, otherwise you might need to install directly from the source)
-Pillow==9.6.1
-llama-index==0.10.68   # Large Language Model indexing
-groq==0.11.0           # Groq's API library
-langchain==0.0.191     # Agent-based framework for LLMs
-openai==0.28.1         # If OpenAI integration is used
-tqdm==4.67.0           # Progress bar for tasks
-validators==0.20.0     # Input validation
-numpy>=1.23.0       # If numerical computations are involved
-pandas>=1.5.0       # For data manipulation, if needed
-matplotlib>=3.6.0   # Visualization support
+groq    # Groq client (if available on PyPI, otherwise you might need to install directly from the source)
+Pillow
+llama-index   # Large Language Model indexing
+langchain   # Agent-based framework for LLMs
+openai         # If OpenAI integration is used
+tqdm         # Progress bar for tasks
+validators    # Input validation
+numpy       # If numerical computations are involved
+pandas      # For data manipulation, if needed
+matplotlib   # Visualization support
 python-dotenv
